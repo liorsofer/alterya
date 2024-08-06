@@ -4,7 +4,7 @@ from typing import List, Optional
 import httpx
 from fastapi import HTTPException, APIRouter
 
-from models.blockchain import Transaction, Asset
+from models.blockchain import Asset, Transaction
 
 router = APIRouter(tags=["Blockchain"])
 
